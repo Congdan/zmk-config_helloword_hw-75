@@ -11,10 +11,8 @@
 			#sensor-binding-cells = <2>;
 		};
 	};
-};
 
-/ {
-	behaviors {
+		behaviors {
 		/omit-if-no-ref/ mwh: behavior_sensor_rotate_mouse_wheel {
 			compatible = "zmk,behavior-sensor-rotate-mouse-wheel";
 			label = "ENC_MOUSE_WHEEL";
