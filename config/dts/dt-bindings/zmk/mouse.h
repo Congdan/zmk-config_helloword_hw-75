@@ -2,7 +2,6 @@
  * Copyright (c) 2022-2023 XiNGRZ
  * SPDX-License-Identifier: MIT
  */
-#include <dt-bindings/zmk/mouse.h>
 
 #define U_MOUSE_SCROLL_MAX 100
 #define U_MOUSE_SCROLL_DELAY 0
