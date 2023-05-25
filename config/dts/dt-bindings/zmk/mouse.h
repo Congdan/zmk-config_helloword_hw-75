@@ -18,5 +18,5 @@
 #define SCROLL_LEFT 	SCROLL_HOR(-U_MOUSE_SCROLL_MAX)
 #define SCROLL_RIGHT 	SCROLL_HOR(U_MOUSE_SCROLL_MAX)
 
-// #define MW_UP(n) (0xFF - n)
-// #define MW_DN(n) (n)
+#define MW_UP(n) (0xFF - n)
+#define MW_DN(n) (n)
