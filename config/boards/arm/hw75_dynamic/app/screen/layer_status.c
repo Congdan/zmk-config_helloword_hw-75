@@ -39,6 +39,7 @@ static const char *layer_icons[KEYMAP_LAYERS_NUM] = {
 	ICON_VOL,
 	ICON_BRI,
 	ICON_SCR,
+	ICON_SCRH,
 };
 
 static const char *layer_names[KEYMAP_LAYERS_NUM] = { DT_FOREACH_CHILD(KEYMAP_NODE, LAYER_LABEL) };
