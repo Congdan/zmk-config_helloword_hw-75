@@ -29,7 +29,7 @@
 		layer_2 {
 			label = "滚动";
 			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_mwh SCROLL_RIGHT SCROLL_LEFT>;
+			sensor-bindings = <&mw SCROLL_RIGHT SCROLL_LEFT>;
 		};
 	};
 };
