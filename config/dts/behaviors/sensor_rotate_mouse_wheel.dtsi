@@ -2,6 +2,7 @@
  * Copyright (c) 2022-2023 XiNGRZ
  * SPDX-License-Identifier: MIT
  */
+#include "mouse.h"
 
 / {
 	behaviors {
@@ -15,6 +16,13 @@
 			compatible = "zmk,behavior-sensor-rotate-mouse-wheel";
 			label = "ENC_MOUSE_WHEEL";
 			#sensor-binding-cells = <2>;
+			bindings = <&mwh>, <&mwh>;
 		};
 	};
+};
+
+&mwh {
+    delay-ms = <U_MOUSE_SCROLL_DELAY>;
+    acceleration-exponent = <U_MOUSE_SCROLL_EXPONENT>;
+    time-to-max-speed-ms = <U_MOUSE_SCROLL_TIME>;
 };
