@@ -35,7 +35,7 @@
 		layer_3 {
 			label = "横向";
 			bindings = <&trans &trans>;
-			sensor-bindings = <&mwh SCROLL_LEFT SCROLL_RIGHT>;
+			sensor-bindings = <&inc_dec_mwh SCROLL_LEFT SCROLL_RIGHT>;
 		};
 	};
 };
