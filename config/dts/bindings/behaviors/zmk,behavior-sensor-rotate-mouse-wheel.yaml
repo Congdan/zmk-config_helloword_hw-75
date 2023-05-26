@@ -13,10 +13,7 @@ properties:
     type: int
     required: true
     const: 2
-  mods:
-    type: int
-    required: false
-
+    
 sensor-binding-cells:
   - param1
   - param2

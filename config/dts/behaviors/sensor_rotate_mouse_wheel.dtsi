@@ -15,7 +15,6 @@
 			compatible = "zmk,behavior-sensor-rotate-mouse-wheel";
 			label = "ENC_MOUSE_WHEEL";
 			#sensor-binding-cells = <2>;
-			mods = <(MOD_LSFT)>;
 		};
 	};
 };
