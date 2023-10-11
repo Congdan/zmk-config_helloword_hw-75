@@ -17,20 +17,20 @@
 			label = "TAKS_FORWARD";
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
-			bindings = <&macro_press   &kp LALT>,
+			bindings = <&macro_press   &kp LCMD>,
 				   <&macro_tap     &kp TAB>,
-				   <&macro_release &kp LALT>;
+				   <&macro_release &kp LCMD>;
 		};
 
 		tasks_backward: tasks-backward {
 			label = "TAKS_BACKWARD";
 			compatible = "zmk,behavior-macro";
 			#binding-cells = <0>;
-			bindings = <&macro_press   &kp LALT>,
+			bindings = <&macro_press   &kp LCMD>,
 				   <&macro_press   &kp LSHIFT>,
 				   <&macro_tap     &kp TAB>,
 				   <&macro_release &kp LSHIFT>,
-				   <&macro_release &kp LALT>;
+				   <&macro_release &kp LCMD>;
 		};
 	};
 
@@ -57,7 +57,7 @@
 			label = "滚动";
 			icon = [EF 86 8A];
 			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
+			sensor-bindings = <&inc_dec_mw MW_DN(1) MW_UP(1)>;
 		};
 
 		tasks {
